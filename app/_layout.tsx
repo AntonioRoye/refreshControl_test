@@ -1,7 +1,6 @@
 import "react-native-gesture-handler";
 import "react-native-reanimated";
 import React from "react";
-import { StyleSheet } from "react-native";
 import { Drawer } from "expo-router/drawer";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 
@@ -33,22 +32,3 @@ export default function App() {
     </GestureHandlerRootView>
   );
 }
-
-const styles = StyleSheet.create({
-  drawerHeader: {
-    height: 150,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  drawerIcon: {
-    width: 250,
-    height: 67,
-  },
-
-  loadingContainer: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#f2f2f2",
-  },
-});
